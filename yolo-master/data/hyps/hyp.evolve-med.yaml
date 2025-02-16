@@ -1,0 +1,34 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# Hyperparameters for medium-augmentation COCO training from scratch
+# python train.py --batch 32 --cfg yolov5m6.yaml --weights '' --data coco.yaml --img 1280 --epochs 300
+# See tutorials for hyperparameter evolution https://github.com/ultralytics/yolov5#tutorials
+
+lr0: 0.01001
+lrf: 0.09242
+momentum: 0.91956
+weight_decay: 0.00051
+warmup_epochs: 2.2881
+warmup_momentum: 0.81379
+warmup_bias_lr: 0.09774
+box: 0.04386
+cls: 0.26025
+cls_pw: 1.014
+obj: 0.69167
+obj_pw: 1.1405
+iou_t: 0.2
+anchor_t: 3.8836
+fl_gamma: 0.0
+hsv_h: 0.01718
+hsv_s: 0.8582
+hsv_v: 0.43354
+degrees: 0.0
+translate: 0.13413
+scale: 0.80759
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 1.0
+mixup: 0.09919
+copy_paste: 0.0
+anchors: 4.3606
